@@ -53,6 +53,7 @@ class VerticalListTests : BaseTest() {
     fun `vertical_scrolling`() {
         onView(withId(R.id.vertical_recycler_view))
                 .perform(swipeUp())
+        Thread.sleep(1000)
         onView(withText("Faye")).check(matches(isDisplayed()))
     }
 

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="button_width">250dp</dimen>
+
+    <dimen name="vertical_horizontal_image">194dp</dimen>
+    <dimen name="vertical_horizontal_space_8">8dp</dimen>
+    <dimen name="vertical_horizontal_space_16">16dp</dimen>
 </resources>

@@ -44,6 +44,8 @@ class GridListTests : BaseTest() {
 
     @Test
     fun `grid_list_content_on_first_page`() {
+        onView(withId(R.id.grid_recycler_view))
+            .perform(swipeUp())
         onView(withText("Nox")).check(matches(isDisplayed()))
     }
 
